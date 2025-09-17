@@ -1,7 +1,7 @@
 name: This is test workflowe
 on: workflow_dispatch
 jobs:
-  First_job: ubuntu-latest
+  First_job: 
   runs-on: ubuntu-latest
   steps:
     - name: This is steps task
