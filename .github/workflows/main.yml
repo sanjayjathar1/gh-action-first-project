@@ -1,8 +1,8 @@
 name: This is test workflowe
 on: workflow_dispatch
 jobs:
-  First_job: 
-  runs-on: ubuntu-latest
-  steps:
-    - name: This is steps task
-      run: echo "This is first Steps"
+  First_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: This is steps task
+        run: echo "This is first Steps"
