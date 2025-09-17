@@ -6,3 +6,8 @@ jobs:
     steps:
       - name: This is steps task
         run: echo "This is first Steps"
+  secod_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: This is steps task
+        run: echo "Good By"
